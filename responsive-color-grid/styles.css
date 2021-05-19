@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+}
+
+#pink-box {
+    height: 150px;
+    width: 1230px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #F5C6D6;
+}
+
+.purple-box {
+    height: 150px;
+    width: 295px;
+    background-color: #EE2E84;
+    position: absolute;
+    top: 185px;
+}
+
+#purple-box-1 {
+    position: absolute;
+    left: 15px;
+}
+
+#purple-box-2 {
+    position: absolute;
+    left: 325px;
+}
+#purple-box-3 {
+    position: absolute;
+    left: 636px;
+}
+#purple-box-4 {
+    position: absolute;
+    left: 948px;
+}
+
+.blue-box {
+    height: 150px;
+    width: 615px;
+    background-color: #85CFD8;
+    position: absolute;
+    top: 355px;
+}
+
+#blue-box-1 {
+    position: absolute;
+    left: 15px;
+}
+
+#blue-box-2 {
+    position: absolute;
+    left: 628px;
+}
+
+#green-box {
+    height: 150px;
+    width: 885px;
+    background-color: #8DC63F;
+    position: absolute;
+    top: 525px;
+    left: 15px;
+    margin-bottom: 15px;
+}
+
+#orange-box {
+    height: 150px;
+    width: 325px;
+    background-color: #E76E34;
+    position: absolute;
+    top: 525px;
+    left: 918px;
+    margin-bottom: 15px;
+}
+
+/* Media Query */
+
+@media (max-width: 768px){
+    #pink-box {
+        height: 75px;
+        width: 750px;
+        background-color: #F5C6D6;
+        left: 10px;
+    }
+    
+    .purple-box {
+        height: 75px;
+        width: 750px;
+        background-color: #EE2E84;
+    }
+
+    #purple-box-1 {
+        top: 95px;
+        left: 10px;
+    }
+    
+    #purple-box-2 {
+        top: 175px;
+        left: 10px;
+    }
+    #purple-box-3 {
+        top: 255px;
+        left: 10px;
+    }
+    #purple-box-4 {
+        top: 335px;
+        left: 10px;
+    }
+    
+    
+    .blue-box {
+        height: 75px;
+        width: 750px;
+        background-color: #85CFD8;
+    }
+
+    #blue-box-1 {
+        top: 415px;
+        left: 10px;
+    }
+    
+    #blue-box-2 {
+        left: 10px;
+        top: 495px;
+    }
+
+    #green-box {
+        height: 75px;
+        width: 750px;
+        background-color: #8DC63F;
+        top: 575px;
+        left: 10px;
+        margin-bottom: 15px;
+    }
+    
+    #orange-box {
+        height: 75px;
+        width: 750px;
+        background-color: #E76E34;
+        top: 655px;
+        left: 10px;
+        margin-bottom: 15px;
+    }
+}
